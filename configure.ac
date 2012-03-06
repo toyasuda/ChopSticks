@@ -4,7 +4,7 @@
 AC_PREREQ([2.59])
 AC_INIT(tsv2sv, 0.01, tyasuda@hgc.jp)
 AM_INIT_AUTOMAKE([foreign])
-AC_CONFIG_SRCDIR([chopstics.cc])
+AC_CONFIG_SRCDIR([chopsticks.cc])
 AC_CONFIG_HEADERS([config.h])
 
 # Checks for programs.
