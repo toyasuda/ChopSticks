@@ -77,7 +77,8 @@ void COption::Show(std::ostream &stream) const{
  * @param opt    the array of option specifications.
  */
 void COption::ShowHelp(std::ostream &stream, const COption::Option_t* opt){
-  stream<<" Options:"<<std::endl;
+  stream<<" OPTIONS:"<<std::endl;
+  stream<<"  Short and long options in the same line have the same effect."<<std::endl;
   for(int i=0;opt[i].Name;++i){
     stream<<"  -"<<opt[i].Short;
     if(opt[i].HasArg) stream<<"<value>";
