@@ -100,7 +100,8 @@ void CGeneralFeature::WriteBED(std::ostream &stream, int32_t indent) const {
         <<m_end   <<delimiter
         <<m_type  <<delimiter
         <<m_score <<delimiter
-        <<strand_str[m_strand+1]<<delimiter
+        <<strand_str[m_strand+1]
+    //<<delimiter
     //<<m_frame <<delimiter
     //<<m_group;
     ;
